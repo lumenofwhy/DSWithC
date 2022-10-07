@@ -1,0 +1,339 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "list",
+					"jsonFile" : "directory-list-Debug-6468c836c15187fa1d82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "list",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "linkList",
+					"jsonFile" : "directory-linkList-Debug-6e47873c31e64944d8ab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "linkList",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "queue",
+					"jsonFile" : "directory-queue-Debug-54aac1d7774d67b8baff.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "queue",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "stack",
+					"jsonFile" : "directory-stack-Debug-c50bba7e2e65c9bfb5d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "stack",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "strings",
+					"jsonFile" : "directory-strings-Debug-c885037597e9f4af48fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "strings",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "hashTable",
+					"jsonFile" : "directory-hashTable-Debug-3e97f78c9a10eab1397c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "hashTable",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "tree",
+					"jsonFile" : "directory-tree-Debug-219be2e58cfa5f97dd5b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "tree",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "sort/radixSort",
+					"jsonFile" : "directory-sort.radixSort-Debug-97a5a48222fa0851afdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "sort/radixSort",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DS"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "list_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "linkList_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "queue_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "stack_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "strings_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "hashTable_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "tree_structure",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "radixSort",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "hashTable_structure::@1a7e634beefb886520b3",
+					"jsonFile" : "target-hashTable_structure-Debug-7e6be9595bc02d92375c.json",
+					"name" : "hashTable_structure",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "linkList_structure::@dc57c47f9d1bccd64339",
+					"jsonFile" : "target-linkList_structure-Debug-fee3feb7b191b9e41d48.json",
+					"name" : "linkList_structure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "list_structure::@9d402429e34d9136414f",
+					"jsonFile" : "target-list_structure-Debug-d2d0b98d50c7f024d695.json",
+					"name" : "list_structure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "queue_structure::@d63f5f69c5a9088733ed",
+					"jsonFile" : "target-queue_structure-Debug-7307c6415d0af306c0a6.json",
+					"name" : "queue_structure",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "radixSort::@64f04febb1fa59c7351c",
+					"jsonFile" : "target-radixSort-Debug-1d0d6ffb664ebd62d1e9.json",
+					"name" : "radixSort",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "stack_structure::@b5371760465ddb38638a",
+					"jsonFile" : "target-stack_structure-Debug-0d96a0d5d08e72cd82f8.json",
+					"name" : "stack_structure",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "strings_structure::@89d0016ae4e25e06fd39",
+					"jsonFile" : "target-strings_structure-Debug-8efaab3243eb95edeac2.json",
+					"name" : "strings_structure",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "tree_structure::@08328a494b2f609a5757",
+					"jsonFile" : "target-tree_structure-Debug-65f63fa296c0341be50a.json",
+					"name" : "tree_structure",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Data/Code/lumenofwhy/MyGitHub/DataStructureWithC/build",
+		"source" : "C:/Data/Code/lumenofwhy/MyGitHub/DataStructureWithC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
