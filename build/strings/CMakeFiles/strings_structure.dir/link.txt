@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\strings_structure.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\strings_structure.dir/objects.a @CMakeFiles\strings_structure.dir\objects1.rsp
-C:\msys64\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\strings_structure.dir/objects.a -Wl,--no-whole-archive -o strings_structure.exe -Wl,--out-implib,libstrings_structure.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\strings_structure.dir\linklibs.rsp
