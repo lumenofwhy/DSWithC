@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "heapSort.h"
 //堆排序:
 //父--->子:i--->2*i+1,2*i+2;
 //子--->父:i---->(i-1)/2
@@ -45,22 +45,4 @@ void HeapSort(int* arr, int len) // O(nlogn),O(1),不稳定
 
         HeapAdjust(arr, 0, len - 1 - i - 1);
     }
-}
-
-void Show(int* arr, int len)
-{
-    for (int i = 0; i < len; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    putchar('\n');
-}
-
-int main()
-{
-    int arr[] = {4, 6, 8, 9, 2, 34, 56, 7, 12, 66, 99, 36, 87};
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    HeapSort(arr, sizeof(arr) / sizeof(arr[0]));
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    return 0;
 }

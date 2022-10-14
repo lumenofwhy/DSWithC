@@ -1,11 +1,3 @@
-/*
- * @Author: Lumen
- * @Date: 2022-01-18 22:18:42
- * @LastEditTime: 2022-02-27 22:11:19
- * @LastEditors: Lumen
- * @Description: 链式队列,队头在首元节点,队尾在尾节点
- * 👻👻👻👻👻👻👻👻
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "insertSort.h"
 
 void InsertSort(int* arr, int len)
 {
@@ -51,22 +52,4 @@ void InsertSort2(int* arr, int len)
         }
         arr[j + 1] = tmp;
     }
-}
-
-void Show(int* arr, int len)
-{
-    for (int i = 0; i < len; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    putchar('\n');
-}
-
-int main()
-{
-    int arr[] = {4, 6, 8, 9, 2, 34, 56, 7, 12, 66, 99, 36, 87};
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    InsertSort(arr, sizeof(arr) / sizeof(arr[0]));
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    return 0;
 }

@@ -1,11 +1,3 @@
-/*
- * @Author: Lumen
- * @Date: 2022-01-18 22:18:04
- * @LastEditTime: 2022-02-27 21:20:05
- * @LastEditors: Lumen
- * @Description: 链式队列,队头在首元节点,队尾在尾节点
- * 👻👻👻👻👻👻👻👻
- */
 #pragma once
 #include <stdbool.h>
 

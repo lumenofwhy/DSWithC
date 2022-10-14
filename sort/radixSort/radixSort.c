@@ -1,13 +1,6 @@
-/*
- * @Author: Lumen
- * @Date: 2022-02-27 21:56:25
- * @LastEditTime: 2022-02-27 22:05:43
- * @LastEditors: Lumen
- * @Description: 基数排序(桶排序)
- * 👻👻👻👻👻👻👻👻
- */
 #include <stdio.h>
 #include "listqueue.h"
+#include "radixSort.h"
 
 //获取最大数字的位数
 static int
@@ -81,22 +74,4 @@ void RadixSort(int* arr, int len) // O(d*n),O(n),稳定
             Destroy(&queArr[i]);
         }
     }
-}
-
-void Show(int* arr, int len)
-{
-    for (int i = 0; i < len; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    putchar('\n');
-}
-
-int main()
-{
-    int arr[] = {4, 6, 8, 9, 2, 34, 56, 7, 12, 66, 99, 36, 87};
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    RadixSort(arr, sizeof(arr) / sizeof(arr[0]));
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    return 0;
 }

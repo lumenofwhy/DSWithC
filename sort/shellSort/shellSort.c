@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "shellSort.h"
 // gap:分组数
 void Shell(int* arr, int len, int gap)
 {
@@ -26,22 +26,4 @@ void ShellSort(int* arr, int len) // O(n^1.3~n^1.5),O(1),不稳定
     {
         Shell(arr, len, d[i]);
     }
-}
-
-void Show(int* arr, int len)
-{
-    for (int i = 0; i < len; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    putchar('\n');
-}
-
-int main()
-{
-    int arr[] = {4, 6, 8, 9, 2, 34, 56, 7, 12, 66, 99, 36, 87};
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    ShellSort(arr, sizeof(arr) / sizeof(arr[0]));
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    return 0;
 }

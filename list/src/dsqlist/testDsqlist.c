@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "sqlist.h"
+#include "dsqlist.h"
 
 int main()
 {
+	printf("hello");
 	return 0;
 }

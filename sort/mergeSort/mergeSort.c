@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include "mergeSort.h"
 
 //一次归并
 // gap:归并段的长度
@@ -63,22 +64,4 @@ void MergeSort(int* arr, int len) // O(nlogn),O(n),稳定
     {
         Merge(arr, len, i);
     }
-}
-
-void Show(int* arr, int len)
-{
-    for (int i = 0; i < len; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    putchar('\n');
-}
-
-int main()
-{
-    int arr[] = {4, 6, 8, 9, 2, 34, 56, 7, 12, 66, 99, 36, 87};
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    MergeSort(arr, sizeof(arr) / sizeof(arr[0]));
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    return 0;
 }

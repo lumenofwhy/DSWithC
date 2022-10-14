@@ -41,8 +41,8 @@ int IndexSimpleMatch(String S, String T, int pos)
     }
 }
 
-int IndexKMP(String S, String T, int pos)
-{}
+// int IndexKMP(String S, String T, int pos)
+// {}
 
 void PrintString(String S)
 {

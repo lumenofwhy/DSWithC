@@ -1,15 +1,21 @@
-project(stack_structure)
+project(stack)
 
-set(SOURCES_lstack
-    lstack.c
-    testLstack.c
+file(GLOB_RECURSE SOURCES_lstack "src/lstack/*.cpp" "src/lstack/*.c")
+file(GLOB_RECURSE SOURCES_seqstack "src/seqstack/*.cpp" "src/seqstack/*.c")
+
+
+
+add_executable(${PROJECT_NAME}_lstack ${SOURCES_lstack})
+add_executable(${PROJECT_NAME}_seqstack ${SOURCES_seqstack})
+
+
+
+target_include_directories(${PROJECT_NAME}_lstack
+    PUBLIC
+        ${PROJECT_SOURCE_DIR}/include
 )
 
-set(SOURCES_seqstack
-    seqstack.c
-    testSeqstack.c
+target_include_directories(${PROJECT_NAME}_seqstack
+    PUBLIC
+        ${PROJECT_SOURCE_DIR}/include
 )
-
-add_executable(${PROJECT_NAME} ${SOURCES_lstack})
-
-# add_executable(${PROJECT_NAME} ${SOURCES_seqstack})

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "quickSort.h"
 
 int Partition(int* arr, int low, int high) // O(n),O(1)
 {
@@ -43,22 +44,4 @@ void Quick(int* arr, int low, int high) // O(nlogn),O(logn),不稳定
 void QuickSort(int* arr, int len)
 {
     Quick(arr, 0, len - 1);
-}
-
-void Show(int* arr, int len)
-{
-    for (int i = 0; i < len; i++)
-    {
-        printf("%d ", arr[i]);
-    }
-    putchar('\n');
-}
-
-int main()
-{
-    int arr[] = {4, 6, 8, 9, 2, 34, 56, 7, 12, 66, 99, 36, 87};
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    QuickSort(arr, sizeof(arr) / sizeof(arr[0]));
-    Show(arr, sizeof(arr) / sizeof(arr[0]));
-    return 0;
 }
