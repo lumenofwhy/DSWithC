@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "bubbleSort/bubbleSort.h"
-#include "heapSort/heapSort.h"
-#include "insertSort/insertSort.h"
-#include "mergeSort/mergeSort.h"
-#include "quickSort/quickSort.h"
-#include "radixSort/radixSort.h"
-#include "selectSort/selectSort.h"
-#include "shellSort/shellSort.h"
+#include "bubbleSort.h"
+#include "heapSort.h"
+#include "insertSort.h"
+#include "mergeSort.h"
+#include "quickSort.h"
+#include "radixSort.h"
+#include "selectSort.h"
+#include "shellSort.h"
 
 
 void Show(int* arr, int len)

@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.0.0)
 set(CMAKE_C_COMPILER "gcc")
 # 设置C++编译器
 set(CMAKE_CXX_COMPILER "g++")
+# 设置安装位置
+set(CMAKE_INSTALL_PREFIX ${CMAKE_SOURCE_DIR})
 
 project(DS VERSION 0.1.0)
 
