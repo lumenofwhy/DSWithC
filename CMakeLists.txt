@@ -12,7 +12,7 @@ set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -fexec-charset=utf-8")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -fexec-charset=utf-8")
 
-
+#tt
 add_subdirectory(${CMAKE_SOURCE_DIR}/list) # 表
 add_subdirectory(${CMAKE_SOURCE_DIR}/linkList) # 链表
 add_subdirectory(${CMAKE_SOURCE_DIR}/queue) # 队列
