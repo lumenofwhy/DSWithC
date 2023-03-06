@@ -44,18 +44,18 @@ ADD_DEPENDENCIES(${PROJECT_NAME}
 
 # 需要先对依赖库进行编译，再对 Sort 进行编译
 target_link_libraries(${PROJECT_NAME}
-PUBLIC
-    libbubbleSort.so
-    libheapSort.so
-    libinsertSort.so
-    libmergeSort.so
-    libquickSort.so
-    libselectSort.so
-    libshellSort.so
-    libradixSort.so
+    PUBLIC
+        libbubbleSort.so
+        libheapSort.so
+        libinsertSort.so
+        libmergeSort.so
+        libquickSort.so
+        libselectSort.so
+        libshellSort.so
+        libradixSort.so
 )
 
 target_link_directories(${PROJECT_NAME}
     PUBLIC
-    ${PROJECT_SOURCE_DIR}/lib
+        ${PROJECT_SOURCE_DIR}/lib
 )
